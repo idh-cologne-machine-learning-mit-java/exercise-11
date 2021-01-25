@@ -42,6 +42,7 @@ As always, commit and push your code.
 
 ## Relevant Links
 
+- [DKpro core](https://dkpro.github.io/dkpro-core/)
 - Javadoc [datavec-api](https://javadoc.io/doc/org.datavec/datavec-api)
 - Javadoc [datavec-local](https://javadoc.io/doc/org.datavec/datavec-local)
 - [Datavec GitHub repository](https://github.com/deeplearning4j/DataVec)
