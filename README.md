@@ -38,3 +38,11 @@ After having done everything, the beginning of the output should look like this:
 
 ## Step 4
 As always, commit and push your code.
+
+
+## Relevant Links
+
+- Javadoc [datavec-api](https://javadoc.io/doc/org.datavec/datavec-api)
+- Javadoc [datavec-local](https://javadoc.io/doc/org.datavec/datavec-local)
+- [Datavec GitHub repository](https://github.com/deeplearning4j/DataVec)
+- [Guide](https://deeplearning4j.konduit.ai/datavec/overview)
