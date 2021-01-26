@@ -21,7 +21,7 @@ The file `Exercise11Main` contains a `main()` function that reads in data from t
 
 Please add two kinds of transforms:
 
-1. Add a transform class to remove all pos tags *except* the verb tags (i.e., VBG, VBN, VBZ, VBP, VBD, VB, NN, NNS). This can be done with `org.datavec.api.transform.transform.column.RemoveColumnsTransform` or `org.datavec.api.transform.transform.column.RemoveAllColumnsExceptForTransform`. 
+1. Add a transform class to remove all pos tags *except* the verb and noun tags (i.e., VBG, VBN, VBZ, VBP, VBD, VB, NN, NNS). This can be done with `org.datavec.api.transform.transform.column.RemoveColumnsTransform` or `org.datavec.api.transform.transform.column.RemoveAllColumnsExceptForTransform`. 
 2. Add a transform to scale the values of the VBG column into the range between 0 and 1. To this end, you'll need to use the transform class `org.datavec.api.transform.transform.doubletransform.MinMaxNormalizer.MinMaxNormalizer` and supply the minimal and maximal values from the data set as arguments. While the lower value is obviously 0 (zero), finding out the highest number of VBG tags in a document is tricky (in Weka, this kind of operation led a filter to being "supervised"), because we need the data set to find out about this. You can of course write a Python/Perl/Shell script to find this value, but within Datavec, you can use the static function `AnalyzeLocal.analyze(...)` to get this value.
 
 Both transforms need to be plugged into a TransformProcess. To create this, you'll need to have a schema for the dataset. You can use the class `InferredSchema` to infer the schema from the actual data set.
