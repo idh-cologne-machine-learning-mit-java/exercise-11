@@ -8,7 +8,7 @@ import org.dkpro.core.corenlp.CoreNlpPosTagger;
 import org.dkpro.core.io.text.TextReader;
 import org.dkpro.core.tokit.BreakIteratorSegmenter;
 
-public class Preprocess {
+public class Preprocess  {
 
 	public static void main(String[] args) throws Exception {
 		CollectionReaderDescription crd = CollectionReaderFactory.createReaderDescription(TextReader.class,
