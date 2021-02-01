@@ -39,7 +39,7 @@ public class Exercise11Main {
 			System.out.println(record);
 		}
 
-		recordReader.close();
+		tpr.close();
 	}
 
 }
